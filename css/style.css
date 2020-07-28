@@ -590,6 +590,8 @@ div+div.about {
 }
 .fourteen-block {
     width: 600px;
+   
+   font-size: 15px;
 
     background: #98fc98;
 }
