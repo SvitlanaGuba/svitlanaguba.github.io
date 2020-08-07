@@ -1,0 +1,178 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+/*Position*/
+
+.container_gallery {
+    margin:20px auto;
+    width: 800px;
+    box-sizing: border-box;
+    padding: 20px;
+
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    text-align: justify;
+
+    background: #ffdab9;
+    color: black;
+}
+.main {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: #030303;
+}
+h2, h3 {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    color: #030303;
+}
+h3 {
+    font-size: 16px;
+}
+p {
+    font-size: 14px;
+    text-align: justify;
+    line-height: 1.2;
+    text-indent: 20px;
+}
+.about {
+    margin-bottom: 20px;
+}
+.kv {
+    display:inline-block;
+    width: 250px;
+    height: 150px;
+    margin: 20px 30px;
+    
+    box-shadow: 0 0 40px #423b39;
+    border-radius: 20px;
+}
+.gallery {
+    text-align: center;
+}
+.position1 {
+    text-align: center;
+}
+
+.city_block {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+
+}
+.city1 {
+    width: 100%;
+    z-index: 1;
+
+    box-shadow:1 0 0 30px #360ea3;
+    border-radius: 20px; 
+}
+.table {
+    position: absolute; 
+    top:50%;
+    width: 100%;
+    height: auto;
+    z-index: 2;
+
+    display: none;
+   
+    font-size: 12px;
+   
+    color: #030303;
+    background: rgb(213, 250, 4, 0.5); 
+}
+div div:hover div {
+    display: block;
+}
+.head_table {
+    font-weight: 700;
+    padding: 5px;
+    font-size: 15px;
+    text-align: center;
+    color: #030303;
+    border: 2px solid #030303; 
+    
+}
+.main_gallery {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 20%;
+    left: 0;
+    bottom: 30%;
+}
+
+.foto_gallery1 {
+    width: 150px;
+    height: 75px; 
+}
+
+.info {
+    font-size: 16px;
+    font-weight: 700;
+    color: #e60909;
+    text-decoration: underline;
+    text-transform: none;
+}
+
+
+.info:hover {
+    color: #00FFFF;
+}
+.info:active {
+    color: #0a8639;
+}
