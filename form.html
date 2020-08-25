@@ -1,0 +1,55 @@
+<!DOCTYPE html> 
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>form</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="form">
+   <div class="page">
+     <h1>Форма для заполнения заказа</h1>
+    <form action="#" method="POST">
+        <p>
+            <input type="text" name="name" placeholder="Ваше имя" required>
+        </p>
+    
+        <h2>Тип кофе</h2>
+        <select>
+            <option class="lkl" value="Кофе">Кофе</option>
+            <option value="Американо">Американо</option>
+            <option value="Лунго">Лунго</option>
+            <option value="Латте">Латте</option>
+            <option value="Макиато">Макиато</option>
+        </select>
+        <h2>Форма оплаты</h2>
+        <p>
+            <input id="radio" type="radio" name="оплата" value="Наличные"required>Наличные
+        
+        </p>
+        <p>
+            <input  type="radio" name="оплата" value="Карта" required>Карта
+            
+        </p>
+     <h2>Количество/шт.</h2>
+     <p>
+        <input type="number"  min="1" max="20" required>
+    </p>
+    
+    <p>
+        <input id="check" type="checkbox">
+       <label for="check">Система отправки готова</label>
+    </p>
+    
+     <p>
+         <textarea placeholder="Ваши комментарии"></textarea>
+     </p> 
+     <p> 
+         <input id="sub" type="submit">
+         <label for="sub"></label>
+     </p>
+    
+    </form>
+   </div> <!--page--> 
+
+</body>
+</html>
