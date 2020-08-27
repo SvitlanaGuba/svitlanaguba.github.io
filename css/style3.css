@@ -1,0 +1,482 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*Figura*/
+/*
+.page {
+    width: 100%;
+    
+    margin: 0 auto;
+    background:radial-gradient(circle at center, white 0, #00BFFF, #1E90FF 100%);
+}
+/*Figura 1
+.main_figure {
+    width: 45%;
+    margin-left: 10px;
+    display: inline-block;
+    
+    
+}
+.first {
+ 
+    width: 30px;
+    height: 40px;
+    position: relative;
+    top: 15px;
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 60px 0 0 0;
+    
+    background: #D2B48C;
+    
+}
+.first1 {
+    width: 100px;
+    height: 40px;
+    margin-left: 70px;
+    background: #D2B48C;
+    background: linear-gradient(135deg, tan 50%, black 50% 55%,tan 55% 60%, black 60% 65%,tan 65% 70%, black 70% 75%, tan 75%);
+    
+}
+
+.first2 {
+    width: 30px;
+    height: 40px;
+    position: relative;
+    bottom: 15px;
+    margin-left: 50px;
+    border-radius:  0  0 0 60px;
+    background: #D2B48C;
+    
+}
+/*Figura2
+
+.circle_main {
+    position: relative;
+    margin-top: 80px;
+    margin-left: 150px;
+    width: 40px;
+    border: 2px solid #000000;
+    
+}
+.circle {
+    margin-left: -8px;
+    border-radius: 50%;
+    border: 14px solid #D2B48C;
+    padding: 11.5px;
+    
+}
+.circle:before,
+.circle:after {
+    content: "";
+    display: block;
+    width: 46px;
+    height: 30px;
+    top: -18px;
+    left: -6px;
+    position: absolute;
+    background:#D2B48C;
+    
+}
+.circle:after {
+    height: 25px;
+    top: 38px;
+    left: -5px;
+    
+}
+
+.two_left {
+    width: 0;
+    height: 0;
+    position: absolute;
+    margin-top: -17px;
+    margin-left: -35px;
+    border-top: 39px solid transparent;
+    border-right: 30px solid #D2B48C;
+    border-bottom: 39px solid transparent;
+    
+    
+}
+.two_right {
+    width: 0;
+    height: 0;
+    position: absolute;
+    margin-top: -66px;
+    margin-left: 40px;
+    border-top: 39px solid transparent;
+    border-left: 30px solid #D2B48C;
+    border-bottom: 39px solid transparent;
+   
+}
+
+/*Figure3
+.third1_main {
+    position: inline-block;
+    position: relative;
+    width: 50px;
+    height: 120px;
+    top: -50px;
+    left: 445px;
+   
+    transform: rotate(-45deg);
+    background:#D2B48C;
+}
+.third1 {
+    position: absolute;
+    width: 130px;
+    height: 100px;
+    right: -40px;
+    top: -100px;
+    border: 2px solid black;
+    border-radius: 0 0 60% 60% / 0 0 100% 100%;
+    
+    }
+    .third2 {
+    position: absolute;
+    margin-left: -8px;
+    top: 100px;
+    left: 2px;
+    border-radius: 50%;
+    border: 20px solid #D2B48C;;
+    padding: 10px;
+
+    }
+
+.circle {
+    
+    margin-left: -8px;
+    border-radius: 50%;
+    border: 14px solid #D2B48C;
+    padding: 11.5px;
+    
+}
+
+/*Figura4
+
+.canvas {
+    width: 45%;
+    display: inline-block;
+   
+}
+.canvas1 {
+    width: 300px;
+    height: 50px;
+    display: inline-block;
+    position: relative;
+    left:50%;
+    background: #D2B48C;
+}
+.canvas1:before {
+    content:"";
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: -49px;
+    left: -40px;
+    border-top: 50px solid transparent;
+    border-right: 40px solid #D2B48C;
+    border-bottom: 50px solid transparent;
+}
+.canvas1:after {
+    content:"";
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: -29px;
+    left: 268px;
+    transform: rotate(-45deg);
+    background: #D2B48C;
+    
+}
+
+.canvas_circle1, 
+.canvas_circle2,
+.canvas_circle3,
+.canvas_circle4 { 
+    display: flex;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 10px;
+    left: 10px;
+    border-radius: 60px;
+    background: #db00f8;
+}
+
+.canvas_circle2 {
+    left: 60px;
+}
+.canvas_circle3 {
+    left: 110px;
+}
+.canvas_circle4 {
+    left: 170px;
+}
+
+*/
+.wrapper2 {
+    max-width:1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.threef {
+    font-size:0;
+}
+.figure1 {
+    width: 100px;
+    height: 200px;
+    margin: 100px;
+    position: relative;
+    display: inline-block;
+    background: radial-gradient(circle at 50%, transparent 40%, green 20%);
+
+}
+/*Animation*/
+.figura {
+    width: 100%;
+    height: 700px;
+    background: white;
+    overflow: hidden;
+}
+.sun {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    position: relative;
+    margin: 20px;
+    border-radius: 50%;
+    background: yellow;
+    animation: sun 4s ease infinite;
+    animation-delay: 2s;
+    
+}
+.sky1{
+    animation: sky1 9s linear infinite;
+}
+.sky1,
+.sky2,
+.sky3 {
+    position: relative;
+    width: 100px; 
+    height: 100px; 
+    margin: 10px;
+    top: -30px;
+    left: 300px;
+    background: #87CEEB;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #214e7a;
+    border-radius: 50% 50% 0 0;
+    
+ }
+.sky1::before,
+.sky1::after {
+     content: "";
+     position: absolute; 
+     background: inherit;
+     border-width: 5px;
+     border-style: solid;
+     border-color: #214e7a;
+}
+.sky1::before {
+    width: 80%;
+    height: 80%;
+    top: 15px;
+    left: -80px;
+    border-right: none;
+    border-radius: 50% 50% 0 50%;
+}
+.sky1::after {
+    width: 60%;
+    height: 60%;
+    top: 34px;
+    left: 80px;
+    border-left: none;
+    border-radius: 50% 50% 50% 0;
+}
+.sky2 {
+    top: -190px;
+    left: 700px;
+    animation: sky2 3s linear infinite;
+ }
+.sky2::before,
+.sky2::after {
+     content: "";
+     position: absolute; 
+     background: inherit;
+     border-width: 5px;
+     border-style: solid;
+     border-color: #214e7a;
+}
+.sky2::before {
+    width: 80%;
+    height: 80%;
+    top: 15px;
+    left: -80px;
+    border-right: none;
+    border-radius: 50% 50% 0 50%;
+}
+.sky2::after {
+    width: 60%;
+    height: 60%;
+    top: 35px;
+    left: 80px;
+    border-left: none;
+    border-radius: 50% 50% 50% 0;
+}
+.sky3 {
+    top: -270px;
+    left: 1100px;
+    animation: sky3 5s linear infinite;
+ }  
+ .sky3::before,
+ .sky3::after {
+      content: "";
+      position: absolute; 
+      background: inherit;
+      border-width: 5px;
+      border-style: solid;
+      border-color: #214e7a;
+ }
+ .sky3::before {
+     width: 80%;
+     height: 80%;
+     top: 15px;
+     left: -80px;
+     border-right: none;
+     border-radius: 50% 50% 0 50%;
+ }
+ .sky3::after {
+     width: 60%;
+     height: 60%;
+     top: 34px;
+     left: 80px;
+     border-left: none;
+     border-radius: 50% 50% 50% 0;
+ }
+.sea1 {
+    animation: sea1 2s linear infinite;
+}
+.sea1 {
+    position: relative;
+    width: 400px; 
+    height: 400px; 
+    top: -130px;
+    margin-left: 310px;
+    background: #0000FF;
+    border-radius: 50%;
+}
+
+.sea1::before,
+.sea1::after {
+    content: "";
+    position: absolute; 
+    background: inherit;
+    
+ }
+.sea1::before {
+    width: 100%;
+    height: 100%;
+    top: -50px;
+    left: -310px;
+    
+    border-radius: 50%;
+}
+.sea1::after {
+    width: 100%;
+    height: 100%;
+    top: -40px;
+    left: 350px;
+    
+    border-radius: 50%;
+}
+.sea2 {
+    position: relative;
+    width: 400px; 
+    height: 400px; 
+    top: -500px;
+    left: 920px;
+    background: #0000FF;
+    border-radius: 50%;
+    animation: sea2 2s linear infinite;
+    
+}
+@keyframes sun {
+    0% {
+        left:0;
+        top:0;
+    }
+    100% {
+        top: 100px;
+        left: 200px;
+        
+    }
+}
+@keyframes sky3 {
+   from {left:0px;}
+   to {left:100%;}
+}
+@keyframes sky1 {
+    from {left:0px;}
+    to {left:100%;}
+ }
+@keyframes sky2 {
+    from {left:0px;}
+    to {left:100%;}
+ }
+@keyframes sea1 {
+    0% {left:0px;top:0px;}
+    50% {top: -200px; left:0px; background: #0000FF;}
+    100% { left:0px; top:0px; background: #0000FF;}
+ }
+ @keyframes sea2 {
+    0% {left:920px;top:-400px;}
+    50% {top: -600px; left:920px; background: #0000FF;}
+    100% { left:920px; top:-400px; background: #0000FF;}
+ }
