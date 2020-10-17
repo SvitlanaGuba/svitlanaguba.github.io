@@ -185,3 +185,51 @@ ol li a {
 .all_courses {
   margin-bottom: 20px;
 }
+@media only screen and (max-width : 480px) {
+
+.left_side {
+  width: 40%;
+  padding: 0;
+  margin-left: 0;
+  margin-right: 0;
+} 
+.right_side {
+  width: 60%;
+  padding: 0;
+}
+.title_left {
+margin: 40px 10px;
+   
+} 
+section ul li {
+  padding-left: 10px;
+}
+h1 {
+  font-size: 20px;
+  margin-bottom: 0;
+  padding: 20px 0;
+}
+.position {
+  font-size: 10px;
+}
+.quote {
+  font-size: 10px;
+}
+.title_right {
+  font-size: 14px;
+}
+.company,
+.accent,
+.jobs-time,
+.experience,
+.education_degree,
+.education_time,
+.specialty,
+.all_courses {
+  font-size: 10px;
+}
+ol li a {
+  font-size: 10px;
+  list-style: none;
+}
+}
